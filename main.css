@@ -1,4 +1,3 @@
-/* Removes unwanted styling from the page */
 *,
 *::before,
 *::after {
@@ -11,3 +10,130 @@
 }
 
 /* Write your code below this */
+.navbar {
+  width: 100%;
+  padding: 26px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 12px;
+}
+li a{
+    text-emphasis: none;
+    color: black;
+    text-decoration: none;
+    width: ;
+}
+.hero {
+  background-image: url('/images/hero.png');
+  height: 100vh;
+  padding-top: 219px;
+  padding-left: 103px;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 35px;
+  padding: 12px 30px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+}
+.journey {
+  background: #618379;
+  padding: 57px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+
+.journey-list {
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+.journey-card {
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color:gray;
+}
+
+.journey-image {
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+}
+footer {
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.about {
+    background-color: #F4F4F4;
+    padding: 57px 0;
+    text-align: center;
+       
+}
+h2{
+    color: black;
+}
+#About-me{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+#About-me-2{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+/* @keyframes identifier {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+
+    
+} */
+
+li a:hover{
+    color: red;
+    opacity: 0.8;
+    transition: color 0.3s ease opacity 0.3s ease;
+    animation: identifier 0.5s ease-in-out;
+}
